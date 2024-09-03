@@ -64,7 +64,7 @@ class MyFireBaseAuth {
       print(e);
       Navigator.of(context, rootNavigator: true).pop();
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Error during Google sign in: Check Your Connection and try again later")),
+        SnackBar(content: Text("Errorr during Google sign in: Check Your Connection and try again later")),
       );
     }
   }
